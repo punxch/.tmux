@@ -14,6 +14,13 @@ Requirements:
     Ubuntu on Windows)
   - outside of tmux, `$TERM` must be set to `xterm-256color`
 
+To get **tmux** and build the latest from version control:
+
+	$ git clone https://github.com/tmux/tmux.git
+	$ cd tmux
+	$ sh autogen.sh
+	$ ./configure && make
+
 To install, run the following from your terminal: (you may want to backup your
 existing `~/.tmux.conf` first)
 
